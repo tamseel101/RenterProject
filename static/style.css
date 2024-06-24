@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Arimo&family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arima', 'Arimo', cursive, sans-serif;
+    font-weight: 400;
+    font-size: 18px!important;
+    color: black;
+    text-decoration: none;
+}
+
+li, a, button {
+    color: black!important;
+    text-decoration: none!important
+}
+
+ul {
+    margin-bottom: 0!important;
+}
+
+li {
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px 5%;
+    height: 150px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #DCD6D2;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: #c3bdb9;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+form {
+    padding: 50px;
+    height: 100%;
+}
+
+img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-img-top {
+    border-radius: 5px;
+}
+
+.card {
+    border: none;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: blue;
+}
+
+footer {
+    color: black;
+    background-color: #DCD6D2;
+    padding: 10px;
+}
+
+form h5 {
+    margin-top: 30px;
+}
+
+.col {
+    margin: 0;
+}
+
+.card {
+    min-height: 20rem;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.landing {
+    text-align: center;
+    height: 76vh;
+    padding: 5% 0px;
+}
+
+.landing h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Arima';
+}
+
+.landing h3 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.login_container {
+    height: 76vh;
+}
+
+.container2 {
+    text-align: center;
+    padding: 5% 0px;
+}
