@@ -1,9 +1,6 @@
 
 <h1 align="center">
-  <br>
-  <a href="https://r4r.tech/"><img src="assets/logo.PNG" alt="Rentals 4 Real" width="200"></a>
-  <br>
-  Rentals 4 Real
+  RentalsProject
   <br>
 </h1>
 
